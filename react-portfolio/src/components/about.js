@@ -9,7 +9,7 @@ const styles = {
 
 function About() {
     return (
-    <div style={styles.contact}>
+    <div style={styles.about}>
     <div className="aboutMe">
         <h1>About Me</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
