@@ -10,8 +10,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact component={About} />
-        <Route path='/contact' component={Contact} />
+        <Route path='/about' exact element={<About />} />
+        <Route path='/contact' element={<Contact />} />
         {/* <Route path='/sheeps' component={Sheeps} />
         <Route path='/goats' component={Goats} /> */}
       </Routes>
