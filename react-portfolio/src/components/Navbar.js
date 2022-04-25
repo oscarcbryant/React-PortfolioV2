@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const styles = {
     navbar: {
@@ -11,12 +12,20 @@ function Navbar() {
         <div style={styles.navbar}>
       <nav className="navbar">
         <h1>Oscar Charlie Bravo</h1>
-        <ul>
-         <a href="/about">About Me</a>
-         <a>Projects</a>
-         <a>Contact Me</a>
-         <a>Resume</a>
-        </ul>
+        <div>
+         <li>
+            <Link to = "/about">About Me</Link>
+        </li>
+        <li>
+            <Link to = "/projects">Projects</Link>
+        </li>
+        <li>
+            <Link to = "/contact">Contact Me</Link>
+        </li>
+        <li>
+            <Link to = "/resume">Resume</Link>
+        </li>
+        </div>
       </nav>
       </div>
     );
