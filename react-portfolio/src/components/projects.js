@@ -7,11 +7,11 @@ import quiz from './quiz.jpg';
 
 const styles = {
     projects: {
-        background: '#e8eaf6'
+        background: '#483D8B'
     },
     images: {
         margin: '100px',
-        opacity: '0.5'
+        opacity: '1'
     }
 };
 
@@ -19,6 +19,7 @@ const styles = {
 
 function Projects() {
     return (
+    <div className="component">
     <div style={styles.projects}>
     <body className="projects">
     <div>
@@ -34,6 +35,7 @@ function Projects() {
     </div>
     </div>
     </body>
+    </div>
     </div>
     )
 };

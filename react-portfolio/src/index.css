@@ -47,4 +47,13 @@ h1 {
 
 #icons {
   color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.component {
+  height: 100vh;
+  background-color: #483D8B;
 }

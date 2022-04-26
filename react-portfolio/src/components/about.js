@@ -11,6 +11,7 @@ const styles = {
 
 function About() {
     return (
+    <div className="component">
     <div style={styles.about}>
     <div className="aboutMe">
         <h1>About Me</h1>
@@ -22,6 +23,7 @@ function About() {
             It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
+    </div>
     </div>
     </div>
     );

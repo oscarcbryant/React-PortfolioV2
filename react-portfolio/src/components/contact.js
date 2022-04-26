@@ -1,15 +1,16 @@
 import React from 'react';
 
-const styles = {
-    contact: {
-        background: '#5e7f8a'
-    }
-};
+// const styles = {
+//     contact: {
+//         background: '#5e7f8a'
+//     }
+// };
 
 
 function Contact() {
     return (
-        <div style={styles.contact}>
+        <div className="component">
+        {/* <div style={styles.contact}> */}
         <div className="contactform">
         <h1>Contact</h1>
         <form>
@@ -23,6 +24,7 @@ function Contact() {
          </form>
       </div>
       </div>
+    //   </div>
     );
   }
   
