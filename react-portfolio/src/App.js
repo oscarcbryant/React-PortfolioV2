@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Contact from './components/contact';
 import Projects from './components/projects';
 import About from './components/about';
-// import Footer from './components/footer';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/projects' element={<Projects />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }

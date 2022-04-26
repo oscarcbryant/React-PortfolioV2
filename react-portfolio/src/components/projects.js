@@ -23,7 +23,7 @@ function Projects() {
     <body className="projects">
     <div>
     <div>
-        <h3>Projects</h3>
+        <h1>Projects</h1>
     </div>
     <div style={styles.images}>
         <img style={styles.images} src={sunset} alt="sunset" />

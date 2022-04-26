@@ -2,7 +2,9 @@ import React from "react";
 
 const styles = {
     about: {
-        background: '#5e7f8a'
+        background: '#483D8B',
+        color: 'white',
+        paddingLeft: '120px'
     }
 };
 

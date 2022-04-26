@@ -1,9 +1,15 @@
+import { findByLabelText } from '@testing-library/react';
 import React from 'react';
 import { Link } from "react-router-dom";
 
 const styles = {
     navbar: {
-        background: '#e8eaf6'
+        background: '#e8eaf6',
+    },
+    links: {
+        display: 'flex',
+        flexDirection: 'column',
+
     }
 };
 
@@ -12,19 +18,19 @@ function Navbar() {
         <div style={styles.navbar}>
       <nav className="navbar">
         <h1>Oscar Charlie Bravo</h1>
-        <div>
-         <li>
+        <div style={styles.links}>
+         <h4>
             <Link to = "/about">About Me</Link>
-        </li>
-        <li>
+        </h4>
+        <h4>
             <Link to = "/projects">Projects</Link>
-        </li>
-        <li>
+        </h4>
+        <h4>
             <Link to = "/contact">Contact Me</Link>
-        </li>
-        <li>
+        </h4>
+        <h4>
             <Link to = "/resume">Resume</Link>
-        </li>
+        </h4>
         </div>
       </nav>
       </div>
