@@ -5,20 +5,21 @@ import { Link } from "react-router-dom";
 const styles = {
     navbar: {
         background: '#e8eaf6',
-    },
-    links: {
-        display: 'flex',
-        flexDirection: 'column',
 
+        alignItems: 'centre'
+    },
+    // aboutHeader: {
+    //     padding: '20px'
+
+    // }
     }
-};
 
 function Navbar() {
     return (
         <div style={styles.navbar}>
       <nav className="navbar">
-        <h1>Oscar Charlie Bravo</h1>
-        <div style={styles.links}>
+        <h1 style={styles.aboutHeader}>Oscar Charlie Bravo</h1>
+        <div id="links">
          <h4>
             <Link to = "/about">About Me</Link>
         </h4>
