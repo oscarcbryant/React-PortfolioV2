@@ -1,18 +1,10 @@
 import React from 'react';
-
-// const styles = {
-//     contact: {
-//         background: '#5e7f8a'
-//     }
-// };
-
+import './styling/contact.css'
 
 function Contact() {
     return (
-        <div className="component">
-        {/* <div style={styles.contact}> */}
         <div className="contactform">
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <form>
          <label for="name">Name</label>
             <input type="text" id="name" name="name"/>
@@ -23,8 +15,6 @@ function Contact() {
             <input type="submit" value="Submit"/>
          </form>
       </div>
-      </div>
-    //   </div>
     );
   }
   

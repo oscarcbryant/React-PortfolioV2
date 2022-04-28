@@ -20,10 +20,6 @@ p {
   margin-inline-end: 0px;
 }
 
-img {
-  border-radius: 15px;
-}
-
 h1 {
   display: block;
   font-size: 2em;
@@ -35,16 +31,19 @@ h1 {
   font-family: "Stoke";
   font-size: 22px;
 }
-  
-  h4 {
-    display: block;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    padding: 10px;
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'stoke';
+  color: white;
 }
+  
 
 #icons {
   color: white;
@@ -54,18 +53,9 @@ h1 {
 
 }
 
-.component {
-  height: 100vh;
-  background-color: #483D8B;
-}
-
 #links {
 display: flex;
 flex-direction: row;
 justify-content: flex-end;
-
 }
 
-.navbar{
-  align-items: center;
-}
