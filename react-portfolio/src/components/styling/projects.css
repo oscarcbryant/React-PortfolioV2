@@ -1,9 +1,25 @@
 .projects{
     background-color: #483D8B;
-    height: 100vh;
+    height: auto;
+    
 }
 
 img {
     border-radius: 250px;
+    opacity: .5;
+    /* padding: 50px; */
+    width: auto;
+    display: flex;
+    align-items: center;
+
   }
-  
+
+  img:hover {
+    opacity: 1;
+
+  }
+
+  .projectlinks {
+align-items: center;
+  }
+

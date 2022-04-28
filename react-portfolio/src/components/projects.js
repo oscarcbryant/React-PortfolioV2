@@ -11,6 +11,7 @@ function Projects() {
     return (
     <body className="projects">
         <h2>Projects</h2>
+        <div id="projectlinks">
         <a href='https://oscarcbryant.github.io/Weather-Dashboard/'>
             <img src={sunset} alt="sunset" />
         </a>
@@ -26,7 +27,7 @@ function Projects() {
         <a href='https://oscarcbryant.github.io/Code-Quiz/'>
             <img src={quiz} alt="quiz" />
         </a>
-
+        </div>
     </body>
     )
 };
