@@ -14,7 +14,7 @@ function Contact() {
    const [message, setMessage] = useState('');
    const [errorMessage, setErrorMessage] = useState('');
 
-   handleInputChange = (e) => {
+  const handleInputChange = (e) => {
       const { target } = e;
       const inputType = target.name;
       const inputValue = target.value;
@@ -24,21 +24,21 @@ function Contact() {
       } else if (inputType === 'email') {
          setEmail(inputValue)
       } else { setMessage(inputValue) }
-   };
+  };
 
-   handleSubmit=(e) => {
+   const handleSubmit=(e) => {
 
    e.preventDefault();
 
    if (!validateEmail(email) || !username) {
       setErrorMessage('Email or username is invalid!');
-   
    return;
    }
+
    setUsername('');
    setEmail('');
    setMessage('');
-}
+};
 
     return (
         <div>
@@ -84,7 +84,6 @@ function Contact() {
          )}
       </div>
     );
-  }
+   }
   
   export default Contact;
-  
