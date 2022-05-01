@@ -1,5 +1,29 @@
-#aboutBody {
+.aboutBody {
     height: 100vh;
     background-color:  #483D8B;
+    
 }
 
+.amy {
+
+    border-radius: 250px;
+    width: auto;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#text {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+
+}

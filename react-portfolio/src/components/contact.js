@@ -41,12 +41,11 @@ function Contact() {
 };
 
     return (
-        <div>
+        <div id="contactbody">
         <h2>Contact</h2>
         <form className="contactform">
-           <fieldset>
             <label>
-               <p>Username</p>
+               <p id='formlabel'>Username</p>
                <input 
                   value={username}
                   name="username" 
@@ -56,7 +55,7 @@ function Contact() {
                   />
             </label>
             <label>
-               <p>email</p>
+               <p id='formlabel'>Email Address</p>
                <input
                value={email} 
                name="email"
@@ -66,16 +65,15 @@ function Contact() {
                />
             </label>
             <label>
-            <input
-               value={message}
-               name='message'
-               onChange={handleInputChange}
-               type='message'
-               placeholder='message'/>
-               <p>Message</p>
+               <p id='formlabel'>Message</p>
+               <input
+                  value={message}
+                  name='message'
+                  onChange={handleInputChange}
+                  type='message'
+                  placeholder='message'/>
             </label>
-            </fieldset>
-            <button type="submit" onClick={handleSubmit}>Submit</button>
+            <button id="submitbutton" type="submit" onClick={handleSubmit}>Submit</button>
          </form>
          {errorMessage && (
             <div>
