@@ -45,8 +45,8 @@ What our `about us` application looks like from an open browser
 
 ![Alt Text](Assets/app.jpg)
 
-### Link
-https://oscarcbryant.github.io/React-Portfolio/
+### Link to deployed application
+https://oscarcbryant.github.io/React-PortfolioV2
 
 ### Technologies used
 React
