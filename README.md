@@ -1,5 +1,5 @@
 # React Portfolio: text-editor
-Project Description
+### Project Description
 In this project, we have built a portfolio using React elements... The app will be a single-page application that using React components for rendering pages detailing our coding history. Having a mobile friendly application was very important for this program.
 
 ## User Stories
