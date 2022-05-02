@@ -12,10 +12,10 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/about' exact element={<About />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/resume' element={<Resume />} />
+        <Route path='/React-PortfolioV2/about' exact element={<About />} />
+        <Route path='/React-PortfolioV2/contact' element={<Contact />} />
+        <Route path='/React-PortfolioV2/projects' element={<Projects />} />
+        <Route path='/React-PortfolioV2/resume' element={<Resume />} />
       </Routes>
       <Footer />
     </Router>

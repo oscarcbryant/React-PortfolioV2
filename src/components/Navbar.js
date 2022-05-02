@@ -9,16 +9,16 @@ function Navbar() {
         <h1>Oscar Charlie Bravo</h1>
             <div id="links">
                 <h4>
-                    <Link to = "/about">About Me</Link>
+                    <Link to = "/React-PortfolioV2/about">About Me</Link>
                 </h4>
                 <h4>
-                    <Link to = "/projects">Projects</Link>
+                    <Link to = "/React-PortfolioV2/projects">Projects</Link>
                 </h4>
                 <h4>
-                    <Link to = "/contact">Contact Me</Link>
+                    <Link to = "/React-PortfolioV2/contact">Contact Me</Link>
                 </h4>
                 <h4>
-                    <Link to = "/resume">Resume</Link>
+                    <Link to = "/React-PortfolioV2/resume">Resume</Link>
                 </h4>
             </div>
       </nav>
